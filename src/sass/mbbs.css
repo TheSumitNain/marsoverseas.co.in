@@ -1,0 +1,336 @@
+.mbbslogo {
+  width: 100%;
+  height: 300px;
+  background: url("../images/mbbs.jpg");
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mbbs {
+  width: 100%;
+  padding: 0 100px;
+}
+
+.mbbs h2 {
+  color: teal;
+  margin: 30px 0 10px 0;
+}
+
+.mbbs p {
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: grey;
+}
+
+.doctor img {
+  width: 100%;
+  height: 600px;
+  padding: 50px 100px;
+}
+
+.comparission {
+  width: 100%;
+  padding: 50px 100px;
+}
+
+.comparission .com_heading {
+  background-color: teal;
+  color: white;
+  padding: 5px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.comparission .com_heading h3 {
+  letter-spacing: 1px;
+}
+
+.comparission .com {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.comparission .com .com_left {
+  margin: 20px 5px;
+}
+
+.comparission .com .com_left ul li {
+  color: grey;
+  font-size: 18px;
+}
+
+.comparission .com .com_left .com_heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+}
+
+.comparission .com .com_left .com_heading h2 {
+  color: teal;
+}
+
+.comparission .com .com_right {
+  margin: 20px 5px;
+}
+
+.comparission .com .com_right ul li {
+  color: grey;
+  font-size: 18px;
+}
+
+.comparission .com .com_right .com_heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+}
+
+.comparission .com .com_right .com_heading h2 {
+  color: teal;
+}
+
+.eligibility {
+  padding: 0 100px;
+}
+
+.eligibility h3 {
+  color: teal;
+}
+
+.eligibility ul {
+  padding: 10px 20px;
+}
+
+.eligibility ul li {
+  color: grey;
+  font-size: 20px;
+}
+
+.eligibility ul li ul {
+  padding: 10px 0 10px 40px;
+}
+
+.eligibility ul li ul li {
+  color: grey;
+  font-size: 18px;
+}
+
+.category_main {
+  width: 80%;
+  margin: 0 10%;
+}
+
+.category_heading {
+  height: 100px;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  color: #fff;
+  background-color: #282c34;
+}
+
+.category_heading h1 {
+  font-size: 35px;
+}
+
+.category_card {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #282c34;
+  padding: 20px 20px 0 0;
+}
+
+.category_card ul li {
+  width: 33.33%;
+  padding: 0 5px;
+  height: 180px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  float: left;
+  color: white;
+}
+
+.category_card ul li img {
+  width: 35%;
+  height: 100px;
+  padding-right: 20px;
+}
+
+.category_card ul li div h5 {
+  font-size: 18px;
+}
+
+.category_card ul li div p {
+  padding-top: 10px;
+  font-size: 15px;
+}
+
+.mbbs_contact {
+  width: 100%;
+  height: 300px;
+  margin: 100px 0 20px 0;
+  background: url("../images/img/laptop.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: .8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mbbs_contact div {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #282c34;
+}
+
+.mbbs_contact div h1 {
+  font-size: 45px;
+}
+
+.mbbs_contact div button {
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  background-color: teal;
+  color: white;
+}
+
+.mbbs_table {
+  width: 100%;
+  padding: 0 100px;
+  margin: 50px 0;
+}
+
+.mbbs_table table {
+  background-color: #f3f3f3;
+}
+
+.mbbs_table table tr {
+  border-top: 1px solid teal;
+  border-bottom: 1px solid teal;
+}
+
+.mbbs_table table th {
+  padding: 5px 50px;
+  color: teal;
+}
+
+.mbbs_table table td {
+  padding: 10px 50px;
+  color: grey;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .category_heading h1 {
+    font-size: 30px;
+  }
+  .category_card ul li {
+    width: 31%;
+    height: 70px;
+    margin: 10px 1.1%;
+    border-radius: 10px;
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+  .category_main {
+    width: 100%;
+    margin: 0px 0 50px 0;
+  }
+  .category_heading {
+    height: 60px;
+  }
+  .category_heading h1 {
+    font-size: 24px;
+  }
+  .category_card ul li {
+    width: 45%;
+    height: 70px;
+    margin: 10px 2.5%;
+    border-radius: 10px;
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 479px) {
+  .category_main {
+    width: 100%;
+    margin: 0px 0 50px 0;
+  }
+  .category_heading {
+    height: 60px;
+  }
+  .category_heading h1 {
+    font-size: 28px;
+  }
+  .category_card ul li {
+    width: 90%;
+    height: 55px;
+    margin: 6px 5%;
+    border-radius: 10px;
+    font-size: 18px;
+  }
+}
+/*# sourceMappingURL=mbbs.css.map */

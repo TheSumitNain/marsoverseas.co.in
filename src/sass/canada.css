@@ -1,0 +1,266 @@
+.canada_main {
+  width: 100%;
+  background-color: #5cadea;
+  border-radius: 0 0 70% 70%;
+}
+
+.canada_main .canada_main_heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 50px 0 20px 0;
+}
+
+.canada_main .canada_main_heading h6 {
+  color: #e3e0e0;
+  font-weight: 500;
+}
+
+.canada_main .canada_main_heading h6 span {
+  color: white;
+}
+
+.canada_main .canada_main_heading h1 {
+  color: white;
+}
+
+.canada_main .canada_main_img {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.canada_main .canada_main_img img {
+  width: 400px;
+  height: 250px;
+  border-radius: 20px;
+  margin: 0 10px;
+}
+
+.canada_para {
+  width: 100%;
+  padding: 50px 300px;
+}
+
+.canada_para p {
+  color: gray;
+  font-size: 20px;
+}
+
+.why_canada {
+  width: 100%;
+  padding: 0 100px;
+  margin: 50px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.why_canada .why_canada_left {
+  width: 50%;
+  padding-right: 20px;
+}
+
+.why_canada .why_canada_left h4 {
+  color: teal;
+}
+
+.why_canada .why_canada_left p {
+  color: gray;
+  font-size: 18px;
+}
+
+.why_canada .why_canada_right {
+  width: 50%;
+  padding-right: 20px;
+}
+
+.why_canada .why_canada_right h4 {
+  color: teal;
+}
+
+.why_canada .why_canada_right ul li {
+  color: gray;
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.education_cost_canada {
+  width: 100%;
+  padding: 0 100px;
+  margin: 50px 0;
+}
+
+.education_cost_canada .education_cost_canada_heading {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: teal;
+}
+
+.education_cost_canada table {
+  width: 100%;
+}
+
+.education_cost_canada table th {
+  background-color: pink;
+  color: gray;
+  padding: 10px 0 10px 50px;
+}
+
+.education_cost_canada table tr {
+  border-bottom: 1px solid pink;
+  border-top: 1px solid pink;
+  padding: 5px 0;
+}
+
+.education_cost_canada table td {
+  font-size: 18px;
+  padding: 10px 0;
+  color: gray;
+  padding-left: 50px;
+}
+
+.career_canada {
+  width: 100%;
+  padding: 0 100px;
+  margin: 100px 0 50px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.career_canada .career_canada_left {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.career_canada .career_canada_left .img1 {
+  width: 50%;
+  padding: 10px;
+}
+
+.career_canada .career_canada_left .img1 img {
+  width: 100%;
+  height: 350px;
+  border-radius: 20px;
+}
+
+.career_canada .career_canada_left .img2 {
+  width: 50%;
+  margin: 50px 0 0 0;
+  padding: 10px;
+}
+
+.career_canada .career_canada_left .img2 img {
+  width: 100%;
+  height: 350px;
+  border-radius: 20px;
+}
+
+.career_canada .career_canada_right {
+  width: 50%;
+  margin: 80px 0 0 50px;
+}
+
+.career_canada .career_canada_right h5 {
+  color: teal;
+}
+
+.career_canada .career_canada_right p {
+  color: gray;
+  font-size: 18px;
+}
+
+.course_canada {
+  width: 100%;
+  padding: 0 100px;
+  margin: 50px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.course_canada .course_canada_left {
+  width: 50%;
+  margin: 100px 0;
+}
+
+.course_canada .course_canada_left img {
+  width: 80%;
+  margin: 20px 10% 0 10%;
+  height: 350px;
+  border-radius: 10px;
+  -webkit-box-shadow: #26394d 0px 20px 30px -10px;
+          box-shadow: #26394d 0px 20px 30px -10px;
+}
+
+.course_canada .course_canada_right {
+  width: 50%;
+  margin: 100px 0;
+}
+
+.course_canada .course_canada_right h4 {
+  margin-left: 50px;
+  color: teal;
+}
+
+.course_canada .course_canada_right .course_box {
+  width: 80%;
+  height: 50px;
+  margin: 20px 10%;
+  border: 1px solid teal;
+}
+
+.course_canada .course_canada_right .course_box p {
+  font-size: 18px;
+  padding: 10px;
+  color: teal;
+}
+/*# sourceMappingURL=canada.css.map */

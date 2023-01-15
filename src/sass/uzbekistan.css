@@ -1,0 +1,183 @@
+.uzbekistan .logo {
+  width: 100%;
+  height: 250px;
+  background-color: teal;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 0 0 150px;
+}
+
+.uzbekistan .logo h1 {
+  color: white;
+  font-size: 40px;
+}
+
+.uzbekistan .table_map {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 100px;
+}
+
+.uzbekistan .table_map table {
+  width: 50%;
+  margin: 50px 50px 0 0;
+}
+
+.uzbekistan .table_map table tr {
+  border-bottom: 1px solid teal;
+  border-top: 1px solid teal;
+}
+
+.uzbekistan .table_map table td {
+  color: teal;
+  padding: 10px 0;
+}
+
+.uzbekistan .table_map div .photos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.uzbekistan .table_map div .photos img {
+  width: 50%;
+  height: 200px;
+  padding: 10px;
+}
+
+.uzbekistan .table_map div .map {
+  width: 100%;
+  height: 300px;
+  padding-right: 10px;
+}
+
+.reason_uzbekistan {
+  width: 100%;
+  padding: 0 100px;
+  margin: 50px 0;
+}
+
+.reason_uzbekistan .reason_uzbekistan_heading {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: teal;
+}
+
+.reason_uzbekistan .reason_uzbekistan_heading h2 {
+  color: white;
+}
+
+.reason_uzbekistan ul {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.reason_uzbekistan ul li {
+  color: gray;
+  font-size: 18px;
+}
+
+.advantage_uzbekistan {
+  width: 100%;
+  padding: 0 100px;
+  margin: 50px 0;
+}
+
+.advantage_uzbekistan h2 {
+  background-color: teal;
+  width: 100%;
+  color: white;
+}
+
+.advantage_uzbekistan ul {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.advantage_uzbekistan ul li {
+  color: gray;
+  font-size: 18px;
+}
+
+.eligilibity_uzbekistan {
+  width: 100%;
+  padding: 0 100px;
+  margin: 50px 0;
+}
+
+.eligilibity_uzbekistan h2 {
+  background-color: teal;
+  width: 100%;
+  color: white;
+}
+
+.eligilibity_uzbekistan ul {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.eligilibity_uzbekistan ul li {
+  color: gray;
+  font-size: 18px;
+}
+
+.college_uzbekistan {
+  width: 100%;
+  padding: 0 100px;
+  margin: 50px 0;
+}
+
+.college_uzbekistan .college_uzbekistan_heading {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: teal;
+}
+
+.college_uzbekistan .college_uzbekistan_heading h2 {
+  color: white;
+}
+
+.college_uzbekistan table {
+  width: 60%;
+  margin: 50px 20%;
+}
+
+.college_uzbekistan table tr {
+  border-bottom: 1px solid teal;
+  border-top: 1px solid teal;
+}
+
+.college_uzbekistan table td, .college_uzbekistan table th {
+  color: teal;
+  padding: 10px 0;
+}
+/*# sourceMappingURL=uzbekistan.css.map */

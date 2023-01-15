@@ -1,0 +1,126 @@
+.mauritius .logo {
+  width: 100%;
+  height: 250px;
+  background-color: teal;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 0 0 150px;
+}
+
+.mauritius .logo h1 {
+  color: white;
+  font-size: 40px;
+}
+
+.mauritius .table_map {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 100px;
+}
+
+.mauritius .table_map table {
+  width: 50%;
+  margin: 50px 50px 0 0;
+}
+
+.mauritius .table_map table tr {
+  border-bottom: 1px solid teal;
+  border-top: 1px solid teal;
+}
+
+.mauritius .table_map table td {
+  color: teal;
+  padding: 10px 0;
+}
+
+.mauritius .table_map div .photos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.mauritius .table_map div .photos img {
+  width: 50%;
+  height: 200px;
+  padding: 10px;
+}
+
+.mauritius .table_map div .map {
+  width: 100%;
+  height: 300px;
+  padding-right: 10px;
+}
+
+.about_mauritius {
+  width: 100%;
+  padding: 0 100px;
+  margin: 50px 0;
+}
+
+.about_mauritius h2 {
+  color: teal;
+  padding: 10px 0;
+}
+
+.about_mauritius h4 {
+  color: teal;
+  padding: 10px 0;
+}
+
+.about_mauritius p {
+  color: gray;
+}
+
+.college_mauritius {
+  width: 100%;
+  padding: 0 100px;
+  margin: 50px 0;
+}
+
+.college_mauritius .college_mauritius_heading {
+  width: 100%;
+  background-color: teal;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.college_mauritius .college_mauritius_heading h2 {
+  color: white;
+}
+
+.college_mauritius table {
+  width: 60%;
+  margin: 50px 20%;
+}
+
+.college_mauritius table tr {
+  border-bottom: 1px solid teal;
+  border-top: 1px solid teal;
+}
+
+.college_mauritius table td,
+.college_mauritius table th {
+  color: teal;
+  padding: 10px 0;
+}
+/*# sourceMappingURL=mauritius.css.map */

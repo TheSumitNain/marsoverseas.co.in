@@ -1,0 +1,538 @@
+.egypt {
+  .logo {
+    width: 100%;
+    height: 250px;
+    background-color: teal;
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 150px;
+
+    h1 {
+      color: white;
+      font-size: 40px;
+    }
+  }
+
+  .table_map {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+
+    table {
+      width: 50%;
+      height: 350px;
+      margin: 50px 50px 0 0;
+
+      tr {
+        border-bottom: 1px solid teal;
+        border-top: 1px solid teal;
+      }
+
+      td {
+        color: teal;
+        padding: 10px 0;
+      }
+    }
+
+    div {
+      .photos {
+        display: flex;
+        flex-direction: row;
+
+        img {
+          width: 50%;
+          height: 200px;
+          padding: 10px;
+        }
+      }
+
+      .map {
+        width: 97%;
+        height: 300px;
+        margin: 0 1.5%;
+      }
+    }
+  }
+}
+
+.reason_egypt {
+  width: 100%;
+  padding: 0 100px;
+  margin: 50px 0;
+
+  .reason_egypt_heading {
+    width: 100%;
+    background-color: teal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h2 {
+      color: white;
+    }
+  }
+  ul {
+    margin: 50px 0;
+
+    li {
+      color: gray;
+      font-size: 18px;
+    }
+  }
+}
+
+
+.college_egypt {
+  width: 100%;
+  padding: 0 100px;
+  margin: 50px 0;
+
+  .college_egypt_heading {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: teal;
+
+    h2 {
+      color: white;
+    }
+  }
+
+  table {
+    width: 60%;
+    margin: 50px 20%;
+
+    tr {
+      border-bottom: 1px solid teal;
+      border-top: 1px solid teal;
+    }
+    
+    td, th {
+      color: teal;
+      padding: 10px 0;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+@media (max-width: 992px) {
+
+  .egypt {
+    .logo {
+      height: 220px;
+      padding: 0 0 0 120px;
+  
+      h1 {
+        font-size: 35px;
+      }
+    }
+  
+    .table_map {
+      justify-content: space-between;
+      padding: 0 20px;
+  
+      table {
+        width: 100%;
+        height: 350px;
+        margin: 30px 20px 0 0;
+  
+        td {
+          padding: 6px 0;
+          font-size: 17px;
+        }
+      }
+  
+      div {
+        width: 100%;
+        .photos {
+          flex-direction: row;
+  
+          img {
+            width: 50%;
+            height: 180px;
+            padding: 5px;
+          }
+        }
+  
+        .map {
+          width: 97%;
+          height: 300px;
+          margin: 0 1.5%;
+        }
+      }
+    }
+  }
+  
+  .reason_egypt {
+    width: 100%;
+    padding: 0 20px;
+    margin: 40px 0;
+  
+    .reason_egypt_heading {
+   flex-direction: column;  
+
+      h2 {
+        font-size: 28px;
+      }
+    }
+    ul {
+      margin: 20px 0;
+  
+      li {
+        font-size: 17px;
+      }
+    }
+  }
+  
+  
+  .college_egypt {
+    width: 100%;
+    padding: 0 20px;
+    margin: 50px 0;
+  
+    .college_egypt_heading {
+      h2 {
+        font-size: 26px;
+      }
+    }
+  
+    table {
+      width: 80%;
+      margin: 50px 10%;
+      font-size: 17px;
+    
+      td, th {
+        padding: 8px 0;
+      }
+    }
+  }
+  
+
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+  .egypt {
+    .logo {
+      height: 180px;
+      padding: 0 0 0 80px;
+  
+      h1 {
+        font-size: 30px;
+      }
+    }
+  
+    .table_map {
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 0 20px;
+  
+      table {
+        width: 100%;
+        height: 320px;
+        margin: 30px 20px 0 0;
+  
+        td {
+          padding: 6px 0;
+          font-size: 16px;
+        }
+      }
+  
+      div {
+        width: 100%;
+        margin-top: 20px;
+
+        .photos {
+          flex-direction: row;
+  
+          img {
+            width: 50%;
+            height: 180px;
+            padding: 5px;
+          }
+        }
+  
+        .map {
+          width: 97%;
+          height: 260px;
+          margin: 0 1.5%;
+        }
+      }
+    }
+  }
+  
+  .reason_egypt {
+    width: 100%;
+    padding: 0 20px;
+    margin: 40px 0;
+  
+    .reason_egypt_heading {
+   flex-direction: column;  
+
+      h2 {
+        font-size: 24px;
+      }
+    }
+    ul {
+      margin: 20px 0;
+  
+      li {
+        font-size: 16px;
+      }
+    }
+  }
+  
+  
+  .college_egypt {
+    width: 100%;
+    padding: 0 20px;
+    margin: 40px 0;
+  
+    .college_egypt_heading {
+      h2 {
+        font-size: 26px;
+      }
+    }
+  
+    table {
+      width: 80%;
+      margin: 50px 10%;
+      font-size: 16px;
+    
+      td, th {
+        padding: 8px 0;
+      }
+    }
+  }
+  
+
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 612px) {
+
+  .egypt {
+    .logo {
+      height: 150px;
+      padding: 0 0 0 50px;
+  
+      h1 {
+        font-size: 28px;
+      }
+    }
+  
+    .table_map {
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 0 10px;
+  
+      table {
+        width: 100%;
+        height: 300px;
+        margin: 30px 0px 0 0;
+  
+        td {
+          padding: 6px 0;
+          font-size: 16px;
+        }
+      }
+  
+      div {
+        width: 100%;
+        margin-top: 20px;
+
+        .photos {
+          flex-direction: row;
+  
+          img {
+            width: 50%;
+            height: 160px;
+            padding: 5px;
+          }
+        }
+  
+        .map {
+          width: 97%;
+          height: 220px;
+          margin: 0 1.5%;
+        }
+      }
+    }
+  }
+  
+  .reason_egypt {
+    width: 100%;
+    padding: 0 10px;
+    margin: 30px 0;
+  
+    .reason_egypt_heading {
+   flex-direction: column;  
+
+      h2 {
+        font-size: 24px;
+      }
+    }
+    ul {
+      margin: 20px 0;
+  
+      li {
+        font-size: 16px;
+      }
+    }
+  }
+  
+  
+  .college_egypt {
+    width: 100%;
+    padding: 0 10px;
+    margin: 30px 0;
+  
+    .college_egypt_heading {
+      h2 {
+        font-size: 24px;
+      }
+    }
+  
+    table {
+      width: 100%;
+      margin: 20px 0;
+      font-size: 16px;
+    
+      td, th {
+        padding: 8px 0;
+      }
+    }
+  }
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 451px) {
+
+  .egypt {
+    .logo {
+      height: 140px;
+      padding: 0 0 0 20px;
+  
+      h1 {
+        font-size: 26px;
+      }
+    }
+  
+    .table_map {
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 0 10px;
+  
+      table {
+        width: 100%;
+        height: 280px;
+        margin: 30px 0 0 0;
+  
+        td {
+          padding: 6px 0;
+          font-size: 15px;
+        }
+      }
+  
+      div {
+        width: 100%;
+        margin-top: 20px;
+
+        .photos {
+          flex-direction: row;
+  
+          img {
+            width: 50%;
+            height: 160px;
+            padding: 5px;
+          }
+        }
+  
+        .map {
+          width: 97%;
+          height: 220px;
+          margin: 0 1.5%;
+        }
+      }
+    }
+  }
+  
+  .reason_egypt {
+    width: 100%;
+    padding: 0 10px;
+    margin: 30px 0;
+  
+    .reason_egypt_heading {
+   flex-direction: column;  
+
+      h2 {
+        font-size: 24px;
+      }
+    }
+    ul {
+      margin: 20px 0;
+  
+      li {
+        font-size: 15px;
+      }
+    }
+  }
+  
+  
+  .college_egypt {
+    width: 100%;
+    padding: 0 10px;
+    margin: 30px 0;
+  
+    .college_egypt_heading {
+      h2 {
+        font-size: 24px;
+      }
+    }
+  
+    table {
+      width: 100%;
+      margin: 20px 0;
+      font-size: 15px;
+    
+      td, th {
+        padding: 6px 0;
+      }
+    }
+  }
+  
+
+}

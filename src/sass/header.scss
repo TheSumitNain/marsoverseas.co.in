@@ -1,0 +1,326 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Carter+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Carter+One&display=swap");
+
+
+.header {
+  width: 100%;
+  height: 80px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+  .logo {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    img {
+      margin-left: 50px;
+      width: 70px;
+      height: 70px;
+    }
+
+    .logo_name {
+      height: 80px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 0;
+      margin: 0;
+
+      h4 {
+        font-size: 35px;
+        // color: blue;
+        padding: 0;
+        margin: 0;
+        font-family: "Carter One", cursive;
+        transform: skewX(-8deg);
+        background: linear-gradient(
+          90deg,
+          rgb(39, 96, 230) 0%,
+          rgb(69, 168, 235) 65%,
+          rgba(0, 202, 255, 1) 86%
+        );
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+      }
+
+      h6 {
+        font-weight: 700;
+        font-size: 13px;
+        letter-spacing: 5px;
+        color: rgb(125, 183, 11);
+        padding: 0 5px;
+        margin: 0;
+        border: 2px solid teal;
+        border-left: none;
+        border-right: none;
+        font-family: "Abel", sans-serif;
+      }
+    }
+  }
+
+  .mynavbar {
+    z-index: 10;
+
+    .nav-link {
+      color: teal;
+      margin: 0 5px;
+      font-size: 17px;
+      font-weight: 500;
+      letter-spacing: 1px;
+
+      p {
+        padding: 0;
+        margin: 0;
+      }
+    }
+
+    .dropdown-menu {
+      background-color: rgb(273, 273, 273);
+    }
+  }
+}
+
+.whatsapp {
+  text-decoration: none;
+  p {
+    background-color: teal;
+    padding: 5px 5px;
+    border-radius: 20px;
+
+    span {
+      color: white;
+      font-size: 18px;
+      padding-left: 5px;
+    }
+  }
+}
+
+@media (max-width: 1080px) {
+  .header {
+    height: 80px;
+    justify-content: space-between;
+
+    .logo {
+      flex-direction: row;
+      align-items: flex-end;
+      img {
+        margin-left: 0px;
+        width: 70px;
+        height: 70px;
+      }
+
+      h6 {
+        color: teal;
+        font-size: 18px;
+        span {
+          color: rgb(124, 180, 13);
+          font-size: 32px;
+        }
+      }
+    }
+
+    .mynavbar {
+      .nav-link {
+        margin: 0 2px;
+        font-size: 17px;
+      }
+    }
+  }
+
+  .whatsapp {
+    p {
+      padding: 5px 5px;
+
+      span {
+        font-size: 18px;
+        padding-left: 5px;
+      }
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .header {
+    flex-direction: row-reverse;
+    align-items: flex-start;
+
+    padding: 10px 20px 0 0;
+
+    .logo {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-end;
+      img {
+        margin-left: 50px;
+        margin-bottom: 10px;
+        width: 70px;
+        height: 70px;
+      }
+
+      .logo_name {
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 0 0 20px 0;
+        margin: 0;
+
+        h4 {
+          font-size: 35px;
+          // color: blue;
+          padding: 0;
+          margin: 0;
+          font-family: "Carter One", cursive;
+          transform: skewX(-8deg);
+          background: linear-gradient(
+            90deg,
+            rgb(39, 96, 230) 0%,
+            rgb(69, 168, 235) 65%,
+            rgba(0, 202, 255, 1) 86%
+          );
+          -webkit-text-fill-color: transparent;
+          -webkit-background-clip: text;
+        }
+
+        h6 {
+          font-weight: 700;
+          font-size: 13px;
+          letter-spacing: 5px;
+          color: rgb(125, 183, 11);
+          padding: 0 5px;
+          margin: 0;
+          border: 2px solid teal;
+          border-left: none;
+          border-right: none;
+          font-family: "Abel", sans-serif;
+        }
+      }
+    }
+  }
+
+  .mynavbar {
+    .navbar-nav {
+      margin-top: 30px;
+      border: 1px solid teal;
+      background-color: rgb(243, 243, 243);
+
+      .nav-link {
+        padding-left: 5px;
+      }
+    }
+  }
+
+  .navbar-toggler {
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+
+  .whatsapp p {
+    border-radius: 0;
+  }
+}
+
+@media (max-width: 612px) {
+  .header {
+    flex-direction: row-reverse;
+    align-items: flex-start;
+
+    padding: 10px 10px 0 0;
+  }
+
+  .mynavbar {
+    .navbar-nav {
+      margin-top: 30px;
+      border: 1px solid teal;
+      background-color: rgb(243, 243, 243);
+
+      .nav-link {
+        padding-left: 5px;
+      }
+    }
+  }
+
+  .navbar-toggler {
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+
+  .whatsapp p {
+    border-radius: 0;
+  }
+}
+
+@media (max-width: 400px) {
+  .header {
+    width: 100%;
+    // height: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    padding: 10px 10px 0 0;
+
+    .logo {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-end;
+      img {
+        display: none;
+      }
+
+      .logo_name {
+        height: 80px;
+        padding: 0 0 20px 0;
+
+        h4 {
+          font-size: 25px;
+        }
+
+        h6 {
+          font-weight: 600;
+          font-size: 12px;
+          letter-spacing: 3px;
+          border: 1px solid teal;
+          border-left: none;
+          border-right: none;
+          padding: 0 2px;
+        }
+      }
+    }
+
+    .mynavbar {
+      .navbar-nav {
+        margin-top: 30px;
+        border: 1px solid teal;
+        background-color: rgb(243, 243, 243);
+
+        .nav-link {
+          color: teal;
+          padding: 5px 5px;
+          font-size: 15px;
+        }
+      }
+    }
+  }
+
+  .whatsapp {
+    text-decoration: none;
+    p {
+      background-color: teal;
+      padding: 5px 5px;
+      border-radius: 0;
+
+      span {
+        color: white;
+        font-size: 15px;
+        padding-left: 5px;
+      }
+    }
+  }
+}

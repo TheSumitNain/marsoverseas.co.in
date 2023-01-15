@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@300&display=swap');
+
+
+.service_name {  
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    .waviy {
+        position: relative;
+        margin-top: 80px;
+        color: teal;
+        font-family: 'Lemonada', cursive;
+      }
+      .waviy span {
+        position: relative;
+        display: inline-block;
+        font-size: 40px;
+        color: teal;
+        text-transform: uppercase;
+        animation: flip 2s infinite;
+        animation-delay: calc(.2s * var(--i));
+        animation-duration: 8s;
+      }
+      @keyframes flip {
+        0%,80% {
+          transform: rotateY(360deg) 
+        }
+      }
+}
+
+
+.service_list {
+    width: 100%;
+    padding: 0 100px;
+    margin: 50px 0;
+
+    h4 {
+        color: teal;
+    }
+
+    p {
+        color: gray;
+        font-size: 18px;
+    }
+
+    span{
+        color: teal;
+        font-weight: 450;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 992px) {
+    .service_name {  
+        .waviy {
+            margin-top: 60px;
+          }
+          .waviy span {
+            font-size: 35px;
+           
+          }
+    }
+    
+    
+    .service_list {
+        width: 100%;
+        padding: 0 20px;
+        margin: 40px 0;
+    
+        h4 {
+            font-size: 24px;
+        }
+    
+        p {
+            font-size: 17px;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .service_name {  
+        .waviy {
+            margin-top: 50px;
+          }
+          .waviy span {
+            font-size: 30px;
+           
+          }
+    }
+    
+    
+    .service_list {
+        width: 100%;
+        padding: 0 20px;
+        margin: 30px 0;
+    
+        h4 {
+            font-size: 22px;
+        }
+    
+        p {
+            font-size: 16px;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 612px) {
+    .service_name {  
+        .waviy {
+            margin-top: 40px;
+          }
+          .waviy span {
+            font-size: 28px;
+           
+          }
+    }
+    
+    
+    .service_list {
+        width: 100%;
+        padding: 0 10px;
+        margin: 25px 0;
+    
+        h4 {
+            font-size: 20px;
+        }
+    
+        p {
+            font-size: 15px;
+        }
+    }
+}
+
+
+
+
+
+
+
+@media (max-width: 451px) {
+    .service_name {  
+        .waviy {
+            margin-top: 30px;
+          }
+          .waviy span {
+            font-size: 26px;
+           
+          }
+    }
+    
+    
+    .service_list {
+        width: 100%;
+        padding: 0 10px;
+        margin: 22px 0;
+    
+        h4 {
+            font-size: 20px;
+        }
+    
+        p {
+            font-size: 15px;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

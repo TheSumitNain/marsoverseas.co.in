@@ -1,0 +1,88 @@
+.query {
+  width: 100%;
+  padding: 50px 0 0 0;
+}
+
+.query .qform {
+  width: 80%;
+  margin: 0 10%;
+  padding: 50px 0;
+  background-color: teal;
+  border-radius: 10px;
+}
+
+.query .qform .form_heading {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.query .qform .form_heading h2 {
+  color: white;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+
+.query .qform .name_phone {
+  padding: 0 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.query .qform .name_phone .input1 {
+  width: 50%;
+  margin: 10px;
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+}
+
+.query .qform .name_phone .input1:hover, .query .qform .name_phone .input1::after {
+  border: 1px solid teal;
+}
+
+.query .qform .input2 {
+  width: 80%;
+  margin: 10px 10%;
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+}
+
+.query .qform .input2:hover, .query .qform .input2::after {
+  border: 1px solid teal;
+}
+
+.query .qform .textarea {
+  width: 80%;
+  height: 150px;
+  margin: 10px 10%;
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+}
+
+.query .qform .submit_btn {
+  margin: 20px 0 10px 10%;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: white;
+  color: teal;
+  border-radius: 5px;
+  border: none;
+}
+/*# sourceMappingURL=query.css.map */

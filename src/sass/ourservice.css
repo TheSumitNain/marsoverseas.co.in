@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Lemonada:wght@300&display=swap");
+.service_name {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.service_name .waviy {
+  position: relative;
+  margin-top: 100px;
+  color: teal;
+  font-family: 'Lemonada', cursive;
+}
+
+.service_name .waviy span {
+  position: relative;
+  display: inline-block;
+  font-size: 40px;
+  color: teal;
+  text-transform: uppercase;
+  -webkit-animation: flip 2s infinite;
+          animation: flip 2s infinite;
+  -webkit-animation-delay: calc(.2s * var(--i));
+          animation-delay: calc(.2s * var(--i));
+  -webkit-animation-duration: 8s;
+          animation-duration: 8s;
+}
+
+@-webkit-keyframes flip {
+  0%, 80% {
+    -webkit-transform: rotateY(360deg);
+            transform: rotateY(360deg);
+  }
+}
+
+@keyframes flip {
+  0%, 80% {
+    -webkit-transform: rotateY(360deg);
+            transform: rotateY(360deg);
+  }
+}
+
+.ourservice {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10px 0;
+  font-weight: 500;
+}
+
+.ourservice .circle2 {
+  background-color: #f6546a;
+  color: white;
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.ourservice .circle1 {
+  background-color: #20b2aa;
+  color: white;
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.ourservice .circle3 {
+  background-color: #1a6695;
+  color: white;
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.ourservice .circle5 {
+  background-color: #f5f5f5;
+  color: #1a6695;
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.circle {
+  width: 150px;
+  height: 150px;
+  margin: 0 10px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+}
+
+@media (max-width: 400px) {
+  .service_name h1 {
+    margin-top: 70px;
+  }
+  .ourservice {
+    margin: 50px 0;
+  }
+  .circle {
+    width: 100px;
+    height: 100px;
+    margin: 0 10px;
+    border-radius: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .circle p {
+    font-size: 12px;
+  }
+}
+/*# sourceMappingURL=ourservice.css.map */

@@ -1,0 +1,555 @@
+.map {
+  margin: 50px 100px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+  .google_map {
+    width: 100%;
+    height: 400px;
+  }
+}
+
+.address {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  // align-items: center;
+  flex-direction: row;
+  background-color: rgb(243, 243, 243);
+  padding: 30px 100px;
+
+  .contact_us {
+    h3 {
+      color: gray;
+      font-size: 20px;
+      padding: 0;
+      margin: 5px 0 5px 25px;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    p {
+      font-size: 18px;
+      font-weight: 500;
+      padding: 0;
+      margin: 0;
+      color: teal;
+
+      span {
+        margin-right: 10px;
+      }
+    }
+  }
+
+  .office {
+    h3 {
+      color: gray;
+      font-size: 20px;
+      padding: 0;
+      margin: 5px 0 5px 25px;
+    }
+
+    p {
+      font-size: 18px;
+      font-weight: 500;
+      padding: 0;
+      margin: 0;
+      color: teal;
+
+      span {
+        margin-right: 10px;
+      }
+    }
+  }
+
+  .follow_us {
+    h3 {
+      color: teal;
+      font-size: 20px;
+    }
+  }
+}
+
+.socialbtn {
+  margin: 20px 0;
+}
+
+.insta {
+  margin: 0 5px;
+  font-size: 40px;
+  border-radius: 30%;
+  padding: 0px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  color: white;
+}
+
+.fb {
+  margin: 0 5px;
+  font-size: 40px;
+  border-radius: 30%;
+  padding: 2px;
+  background-color: #3b5998;
+  color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.twitter {
+  margin: 0 5px;
+  font-size: 40px;
+  border-radius: 30%;
+  padding: 2px;
+  background-color: #00acee;
+  color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.copyright {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: teal;
+
+  p {
+    padding-top: 5px;
+    color: white;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 992px) {
+
+  .map {
+    margin: 40px 20px;
+
+    .google_map {
+      width: 100%;
+      height: 350px;
+    }
+  }
+  
+  .address {
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 30px 0;
+  
+    .contact_us {
+      h3 {
+        font-size: 18px;
+        margin: 5px 0 5px 25px;
+      }
+  
+      p {
+        font-size: 17px;
+  
+        span {
+          margin-right: 10px;
+        }
+      }
+    }
+  
+    .office {
+      h3 {
+        font-size: 18px;
+        padding: 0;
+        margin: 5px 0 5px 25px;
+      }
+  
+      p {
+        font-size: 17px;
+  
+        span {
+          margin-right: 10px;
+        }
+      }
+    }
+  
+    .follow_us {
+      h3 {
+        font-size: 18px;
+      }
+    }
+  }
+  
+  .socialbtn {
+    margin: 20px 0;
+  }
+  
+  .insta {
+    margin: 0 5px;
+    font-size: 40px;
+  }
+  
+  .fb {
+    margin: 0 5px;
+    font-size: 40px;
+    padding: 2px;
+  }
+  
+  .twitter {
+    margin: 0 5px;
+    font-size: 40px;
+    padding: 2px;
+  }
+  
+  .copyright {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  
+    p {
+      padding-top: 5px;
+    }
+  }
+
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+  .map {
+    margin: 50px 20px;
+
+    .google_map {
+      width: 100%;
+      height: 300px;
+    }
+  }
+  
+  .address {
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 30px 20%;
+  
+    .contact_us {
+      // margin-bottom: 20px;
+      h3 {
+        font-size: 20px;
+        margin: 5px 0 5px 25px;
+      }
+  
+      p {
+        font-size: 18px;
+  
+        span {
+          margin-right: 10px;
+        }
+      }
+    }
+  
+    .office {
+      h3 {
+        font-size: 20px;
+        padding: 0;
+        margin: 5px 0 5px 25px;
+      }
+  
+      p {
+        font-size: 18px;
+  
+        span {
+          margin-right: 10px;
+        }
+      }
+    }
+  
+    .follow_us {
+      h3 {
+        font-size: 20px;
+        margin-top: 20px;
+      }
+    }
+  }
+  
+  .socialbtn {
+    margin: 20px 0;
+  }
+  
+  .insta {
+    margin: 0 5px;
+    font-size: 40px;
+  }
+  
+  .fb {
+    margin: 0 5px;
+    font-size: 40px;
+    padding: 2px;
+  }
+  
+  .twitter {
+    margin: 0 5px;
+    font-size: 40px;
+    padding: 2px;
+  }
+  
+  .copyright {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  
+    p {
+      padding-top: 5px;
+    }
+  }
+
+}
+
+
+
+
+
+
+
+@media (max-width: 612px) {
+
+  .map {
+    margin: 50px 10px;
+
+    .google_map {
+      width: 100%;
+      height: 280px;
+    }
+  }
+  
+  .address {
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 30px 10%;
+  
+    .contact_us {
+      // margin-bottom: 20px;
+      h3 {
+        font-size: 20px;
+        margin: 5px 0 5px 25px;
+      }
+  
+      p {
+        font-size: 18px;
+  
+        span {
+          margin-right: 10px;
+        }
+      }
+    }
+  
+    .office {
+      h3 {
+        font-size: 20px;
+        padding: 0;
+        margin: 5px 0 5px 25px;
+      }
+  
+      p {
+        font-size: 18px;
+  
+        span {
+          margin-right: 10px;
+        }
+      }
+    }
+  
+    .follow_us {
+      h3 {
+        font-size: 20px;
+      }
+    }
+  }
+  
+  .socialbtn {
+    margin: 20px 0;
+  }
+  
+  .insta {
+    margin: 0 5px;
+    font-size: 40px;
+  }
+  
+  .fb {
+    margin: 0 5px;
+    font-size: 40px;
+    padding: 2px;
+  }
+  
+  .twitter {
+    margin: 0 5px;
+    font-size: 40px;
+    padding: 2px;
+  }
+  
+  .copyright {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  
+    p {
+      padding-top: 5px;
+    }
+  }
+
+}
+
+
+
+
+
+
+
+
+@media (max-width: 451px) {
+
+  .map {
+    margin: 50px 0px;
+
+    .google_map {
+      width: 100%;
+      height: 300px;
+    }
+  }
+
+  .address {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    // align-items: center;
+    flex-direction: column;
+    background-color: rgb(243, 243, 243);
+    padding: 30px 10px 10px 10px;
+
+    .contact_us {
+      margin-bottom: 20px;
+
+      h3 {
+        color: teal;
+        font-size: 18px;
+        padding: 0;
+        margin: 5px 0 5px 25px;
+      }
+
+      p {
+        font-size: 15px;
+        padding: 0;
+        margin: 0;
+
+        span {
+          margin-right: 10px;
+        }
+      }
+    }
+
+    .office {
+      margin-bottom: 20px;
+
+      h3 {
+        color: teal;
+        font-size: 18px;
+        padding: 0;
+        margin: 5px 0 5px 25px;
+      }
+
+      p {
+        font-size: 15px;
+        padding: 0;
+        margin: 0;
+
+        span {
+          margin-right: 10px;
+        }
+      }
+    }
+
+    .follow_us {
+      h3 {
+        color: teal;
+        font-size: 18px;
+        padding: 0;
+        margin: 5px 0 5px 25px;
+      }
+    }
+  }
+
+  .socialbtn {
+    margin: 20px 10px;
+  }
+
+  .insta {
+    margin: 0 12px;
+    font-size: 40px;
+    border-radius: 30%;
+    padding: 0px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+      rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    background: radial-gradient(
+      circle at 30% 107%,
+      #fdf497 0%,
+      #fdf497 5%,
+      #fd5949 45%,
+      #d6249f 60%,
+      #285aeb 90%
+    );
+    color: white;
+  }
+
+  .fb {
+    margin: 0 12px;
+    font-size: 40px;
+    border-radius: 30%;
+    padding: 2px;
+    background-color: #3b5998;
+    color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+      rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  }
+
+  .twitter {
+    margin: 0 12px;
+    font-size: 40px;
+    border-radius: 30%;
+    padding: 2px;
+    background-color: #00acee;
+    color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+      rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  }
+
+  .copyright {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // background-color: rgb(230, 229, 229);
+
+    p {
+      padding-top: 5px;
+      font-size: 12px;
+    }
+  }
+}

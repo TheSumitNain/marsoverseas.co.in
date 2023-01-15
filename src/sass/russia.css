@@ -1,0 +1,169 @@
+.russia .logo {
+  width: 100%;
+  height: 250px;
+  background-color: teal;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 0 0 150px;
+}
+
+.russia .logo h1 {
+  color: white;
+  font-size: 40px;
+}
+
+.russia .table_map {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 100px;
+}
+
+.russia .table_map table {
+  width: 50%;
+  margin: 50px 50px 0 0;
+}
+
+.russia .table_map table tr {
+  border-bottom: 1px solid teal;
+  border-top: 1px solid teal;
+}
+
+.russia .table_map table td {
+  color: teal;
+  padding: 10px 0;
+}
+
+.russia .table_map div .photos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.russia .table_map div .photos img {
+  width: 50%;
+  height: 200px;
+  padding: 10px;
+}
+
+.russia .table_map div .map {
+  width: 100%;
+  height: 300px;
+  padding-right: 10px;
+}
+
+.reason_russia {
+  width: 100%;
+  padding: 0 100px;
+  margin: 50px 0;
+}
+
+.reason_russia h2 {
+  width: 100%;
+  background-color: teal;
+  color: white;
+  padding: 0 20px;
+}
+
+.reason_russia ul {
+  width: 100%;
+  margin: 50px 0;
+}
+
+.reason_russia ul li {
+  color: gray;
+  font-size: 18px;
+}
+
+.md_russia {
+  width: 100%;
+  padding: 0 100px;
+  margin: 50px 0;
+}
+
+.md_russia .md_russia_heading {
+  width: 100%;
+  margin: 50px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: teal;
+}
+
+.md_russia .md_russia_heading h2 {
+  color: white;
+}
+
+.md_russia h6 span {
+  color: teal;
+  font-size: 18px;
+}
+
+.md_russia ul li {
+  color: gray;
+  font-size: 18px;
+}
+
+.md_russia span {
+  color: teal;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.college_russia {
+  width: 100%;
+  padding: 0 100px;
+  margin: 50px 0;
+}
+
+.college_russia .college_russia_heading {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: teal;
+}
+
+.college_russia .college_russia_heading h2 {
+  color: white;
+}
+
+.college_russia table {
+  width: 60%;
+  margin: 50px 20%;
+}
+
+.college_russia table tr {
+  border-bottom: 1px solid teal;
+  border-top: 1px solid teal;
+}
+
+.college_russia table td, .college_russia table th {
+  color: teal;
+  padding: 10px 0;
+}
+/*# sourceMappingURL=russia.css.map */

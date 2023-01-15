@@ -1,0 +1,79 @@
+.query {
+  width: 100%;
+  padding: 50px 0 0 0;
+
+  .qform {
+    width: 80%;
+    margin: 0 10%;
+    padding: 50px 0;
+    background-color: teal;
+    border-radius: 10px;
+
+    .form_heading {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      h2 {
+        color: white;
+        font-weight: 300;
+        margin-bottom: 40px;
+      }
+    }
+
+    .name_phone {
+       padding: 0 100px;
+       display: flex;
+       justify-content: space-between;
+
+      .input1 {
+        width: 50%;
+        margin: 10px;
+        font-size: 20px;
+        padding: 10px 20px;
+        border-radius: 5px;
+        border: none;
+        
+        &:hover,
+        &::after {
+          border: 1px solid teal;
+        }
+      }
+    }
+
+    .input2 {
+      width: 80%;
+      margin: 10px 10%;
+      font-size: 20px;
+      padding: 10px 20px;
+      border-radius: 5px;
+      border: none;
+      
+      &:hover,
+      &::after {
+        border: 1px solid teal;
+      }
+    }
+
+    .textarea {
+      width: 80%;
+      height: 150px;
+      margin: 10px 10%;
+      font-size: 20px;
+      padding: 10px 20px;
+      border-radius: 5px;
+      border: none;
+    }
+
+    .submit_btn {
+      margin: 20px 0 10px 10%;
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: white;
+      color: teal;
+      border-radius: 5px;
+      border: none;
+    }
+  }
+}

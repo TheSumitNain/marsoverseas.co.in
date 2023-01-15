@@ -1,0 +1,139 @@
+.egypt .logo {
+  width: 100%;
+  height: 250px;
+  background-color: teal;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 0 0 150px;
+}
+
+.egypt .logo h1 {
+  color: white;
+  font-size: 40px;
+}
+
+.egypt .table_map {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 100px;
+}
+
+.egypt .table_map table {
+  width: 50%;
+  height: 350px;
+  margin: 50px 50px 0 0;
+}
+
+.egypt .table_map table tr {
+  border-bottom: 1px solid teal;
+  border-top: 1px solid teal;
+}
+
+.egypt .table_map table td {
+  color: teal;
+  padding: 10px 0;
+}
+
+.egypt .table_map div .photos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.egypt .table_map div .photos img {
+  width: 50%;
+  height: 200px;
+  padding: 10px;
+}
+
+.egypt .table_map div .map {
+  width: 100%;
+  height: 300px;
+  padding-right: 10px;
+}
+
+.reason_egypt {
+  width: 100%;
+  padding: 0 100px;
+  margin: 50px 0;
+}
+
+.reason_egypt .reason_egypt_heading {
+  width: 100%;
+  background-color: teal;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.reason_egypt .reason_egypt_heading h2 {
+  color: white;
+}
+
+.reason_egypt ul {
+  margin: 50px 0;
+}
+
+.reason_egypt ul li {
+  color: gray;
+  font-size: 18px;
+}
+
+.college_egypt {
+  width: 100%;
+  padding: 0 100px;
+  margin: 50px 0;
+}
+
+.college_egypt .college_egypt_heading {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: teal;
+}
+
+.college_egypt .college_egypt_heading h2 {
+  color: white;
+}
+
+.college_egypt table {
+  width: 60%;
+  margin: 50px 20%;
+}
+
+.college_egypt table tr {
+  border-bottom: 1px solid teal;
+  border-top: 1px solid teal;
+}
+
+.college_egypt table td, .college_egypt table th {
+  color: teal;
+  padding: 10px 0;
+}
+/*# sourceMappingURL=egypt.css.map */

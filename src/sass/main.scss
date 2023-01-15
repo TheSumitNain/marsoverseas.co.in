@@ -1,0 +1,52 @@
+@import 'header';
+@import 'ourservice';
+@import 'query';
+@import 'location';
+@import 'mainicon';
+@import 'accordion';
+@import 'testimony';
+@import 'newsfeed';
+@import 'address';
+@import 'ielts';
+@import 'pte';
+@import 'mbbs';
+@import 'Countrylist';
+@import 'philippines';
+@import 'belarus';
+@import "ukraine";
+@import "china";
+@import 'nepal';
+@import 'bangladesh';
+@import 'georgia';
+@import 'armenia';
+@import 'central_america';
+@import 'south_america';
+@import 'kyrgyzstan';
+@import 'kazakhstan';
+@import 'egypt';
+@import 'mauritius';
+@import 'russia';
+@import 'uzbekistan';
+@import 'usa';
+@import 'canada';
+@import 'uk';
+@import 'australia';
+@import 'newzealand';
+@import 'ireland';
+@import 'asia';
+@import 'europe';
+@import 'about';
+@import 'reply';
+@import 'pagenotfound';
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.top_btn {
+    background-color: rgba(162, 160, 160, 0.4);
+    color: red;
+}

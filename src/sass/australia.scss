@@ -1,0 +1,1181 @@
+.australia_main {
+  width: 100%;
+  background-color: rgb(92, 173, 234);
+  border-radius: 0 0 70% 70%;
+
+  .australia_main_heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0 20px 0;
+
+    h6 {
+      color: rgb(227, 224, 224);
+      font-weight: 500;
+      span {
+        color: white;
+      }
+    }
+    h1 {
+      color: white;
+    }
+  }
+
+  .australia_main_img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    // padding-bottom: 0px;
+
+    img {
+      width: 400px;
+      height: 250px;
+      border-radius: 20px;
+      margin: 0 10px;
+    }
+  }
+}
+
+.australia_para {
+  width: 100%;
+  padding: 50px 300px;
+
+  p {
+    color: gray;
+    font-size: 20px;
+  }
+}
+
+.why_australia {
+  width: 100%;
+  padding: 0 100px;
+  margin: 50px 0;
+  display: flex;
+  flex-direction: row;
+
+  .why_australia_left {
+    width: 50%;
+    padding-right: 20px;
+
+    h4 {
+      color: teal;
+    }
+
+    p {
+      color: gray;
+      font-size: 18px;
+    }
+  }
+
+  .why_australia_right {
+    width: 50%;
+    padding-right: 20px;
+
+    h4 {
+      color: teal;
+    }
+
+    ul li {
+      color: gray;
+      font-size: 18px;
+    }
+  }
+}
+
+.education_cost_australia_heading {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: teal;
+  margin-top: 50px;
+}
+
+.education_cost_australia {
+  width: 100%;
+  padding: 0 100px;
+  margin: 0 0 50px 0;
+
+  table {
+    width: 100%;
+
+    th {
+      background-color: pink;
+      color: gray;
+      padding: 10px 0 10px 50px;
+    }
+
+    tr {
+      border-bottom: 1px solid pink;
+      border-top: 1px solid pink;
+      padding: 5px 0;
+    }
+
+    td {
+      font-size: 18px;
+      padding: 10px 0;
+      color: gray;
+      padding-left: 50px;
+    }
+  }
+}
+
+.career_australia {
+  width: 100%;
+  padding: 0 100px;
+  margin: 100px 0 50px 0;
+  display: flex;
+  flex-direction: row;
+
+  .career_australia_left {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+
+    .img1 {
+      width: 50%;
+      padding: 10px;
+
+      img {
+        width: 100%;
+        height: 350px;
+        border-radius: 20px;
+      }
+    }
+
+    .img2 {
+      width: 50%;
+      margin: 50px 0 0 0;
+      padding: 10px;
+
+      img {
+        width: 100%;
+        height: 350px;
+        border-radius: 20px;
+      }
+    }
+  }
+
+  .career_australia_right {
+    width: 50%;
+    margin: 80px 0 0 50px;
+
+    h5 {
+      color: teal;
+    }
+
+    p {
+      color: gray;
+      font-size: 18px;
+    }
+  }
+}
+
+.college_australia {
+  width: 100%;
+  padding: 0 100px;
+  margin: 50px 0;
+
+  .college_australia_heading {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: teal;
+  }
+
+  .college_list_australia {
+    width: 100%;
+
+    .college {
+      width: 46%;
+      height: 100px;
+      margin: 5px 2px;
+      background-color: rgb(243, 243, 243);
+      color: teal;
+      border-radius: 10px;
+      float: left;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 0 10px;
+
+      p {
+        font-size: 17px;
+      }
+    }
+  }
+}
+
+.course_australia {
+  width: 100%;
+  padding: 0 100px;
+  margin: 50px 0;
+  display: flex;
+  flex-direction: row;
+
+  .course_australia_left {
+    width: 50%;
+    margin: 100px 0;
+
+    img {
+      width: 80%;
+      margin: 20px 10% 0 10%;
+      height: 350px;
+      border-radius: 10px;
+      box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    }
+  }
+
+  .course_australia_right {
+    width: 50%;
+    margin: 100px 0;
+
+    h4 {
+      margin-left: 50px;
+      color: teal;
+    }
+
+    .course_box {
+      width: 80%;
+      height: 50px;
+      margin: 20px 10%;
+      border: 1px solid gray;
+
+      p {
+        font-size: 18px;
+        padding: 10px;
+        color: gray;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 992px) {
+  .australia_main {
+    border-radius: 0 0 80% 80%;
+
+    .australia_main_heading {
+      padding: 50px 0 20px 0;
+
+      h6 {
+        font-size: 19px;
+      }
+      h1 {
+        font-size: 30px;
+      }
+    }
+
+    .australia_main_img {
+      flex-direction: row;
+
+      img {
+        width: 320px;
+        height: 220px;
+        border-radius: 15px;
+        margin: 0 10px;
+      }
+    }
+  }
+
+  .australia_para {
+    width: 100%;
+    padding: 40px 100px;
+
+    p {
+      font-size: 17px;
+    }
+  }
+
+  .why_australia {
+    width: 100%;
+    padding: 0 20px;
+    margin: 50px 0;
+    flex-direction: row;
+
+    .why_australia_left {
+      width: 50%;
+      padding-right: 20px;
+
+      h4 {
+        font-size: 22px;
+      }
+
+      p {
+        font-size: 17px;
+      }
+    }
+
+    .why_australia_right {
+      width: 50%;
+      padding-right: 0;
+
+      h4 {
+        font-size: 22px;
+      }
+
+      ul li {
+        font-size: 17px;
+      }
+    }
+  }
+
+  .education_cost_australia_heading {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: teal;
+    margin-top: 40px;
+  }
+
+  .education_cost_australia {
+    padding: 0 20px;
+    margin: 0 0 50px 0;
+    overflow-x: auto;
+
+    table {
+      th {
+        padding: 10px 0 10px 20px;
+      }
+
+      tr {
+        padding: 5px 0;
+      }
+
+      td {
+        font-size: 18px;
+        padding: 8px 0;
+        padding-left: 20px;
+      }
+    }
+  }
+
+  .career_australia {
+    padding: 0 20px;
+    margin: 50px 0 40px 0;
+    flex-direction: row;
+
+    .career_australia_left {
+      flex-direction: row;
+
+      .img1 {
+        width: 50%;
+        padding: 10px 5px;
+
+        img {
+          width: 100%;
+          height: 320px;
+          border-radius: 15px;
+        }
+      }
+
+      .img2 {
+        width: 50%;
+        margin: 50px 0 0 0;
+        padding: 10px 5px;
+
+        img {
+          width: 100%;
+          height: 320px;
+          border-radius: 15px;
+        }
+      }
+    }
+
+    .career_australia_right {
+      width: 50%;
+      margin: 80px 0 0 50px;
+
+      h5 {
+        font-size: 22px;
+      }
+
+      p {
+        font-size: 17px;
+      }
+    }
+  }
+
+  .college_australia {
+    width: 100%;
+    padding: 0 20px;
+    margin: 50px 0;
+
+    .college_australia_heading {
+      h2 {
+        font-size: 26px;
+      }
+    }
+
+    .college_list_australia {
+      width: 100%;
+
+      .college {
+        width: 48%;
+        height: 100px;
+        margin: 5px 1px;
+        border-radius: 10px;
+        justify-content: flex-start;
+        padding: 0 10px;
+
+        p {
+          font-size: 17px;
+        }
+      }
+    }
+  }
+
+  .course_australia {
+    padding: 0 20px;
+    margin: 50px 0 30px 0;
+    flex-direction: row;
+
+    .course_australia_left {
+      width: 50%;
+      margin: 50px 0 0 0;
+
+      img {
+        width: 90%;
+        margin: 20px 5% 0 5%;
+        height: 320px;
+        border-radius: 10px;
+      }
+    }
+
+    .course_australia_right {
+      width: 50%;
+      margin: 50px 0 0 0;
+
+      h4 {
+        margin-left: 50px;
+        font-size: 24px;
+      }
+
+      .course_box {
+        width: 90%;
+        height: 50px;
+        margin: 20px 5%;
+
+        p {
+          font-size: 18px;
+          padding: 8px 10px;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .australia_main {
+    border-radius: 0 0 90% 90%;
+
+    .australia_main_heading {
+      padding: 30px 0 20px 0;
+
+      h6 {
+        font-size: 16px;
+      }
+      h1 {
+        font-size: 28px;
+      }
+    }
+
+    .australia_main_img {
+      flex-direction: row;
+
+      img {
+        width: 250px;
+        height: 180px;
+        border-radius: 10px;
+        margin: 0 10px;
+      }
+    }
+  }
+
+  .australia_para {
+    width: 100%;
+    padding: 40px 50px;
+
+    p {
+      font-size: 16px;
+    }
+  }
+
+  .why_australia {
+    width: 100%;
+    padding: 0 50px;
+    margin: 30px 0;
+    flex-direction: column;
+
+    .why_australia_left {
+      width: 100%;
+      padding-right: 0;
+
+      h4 {
+        font-size: 22px;
+      }
+
+      p {
+        font-size: 17px;
+      }
+    }
+
+    .why_australia_right {
+      width: 100%;
+      padding-right: 0;
+
+      h4 {
+        font-size: 22px;
+      }
+
+      ul li {
+        font-size: 17px;
+      }
+    }
+  }
+
+  .education_cost_australia_heading {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: teal;
+    margin-top: 40px;
+
+    h2 {
+      font-size: 24px;
+    }
+  }
+
+  .education_cost_australia {
+    padding: 0 20px;
+    margin: 0 0 40px 0;
+    overflow-x: auto;
+
+    table {
+      min-width: 700px;
+
+      th {
+        padding: 5px 0 5px 10px;
+      }
+
+      tr {
+        padding: 2px 0;
+      }
+
+      td {
+        font-size: 18px;
+        padding: 5px 0;
+        padding-left: 10px;
+      }
+    }
+  }
+
+  .career_australia {
+    padding: 0 20px;
+    margin: 50px 0 40px 0;
+    flex-direction: column;
+
+    .career_australia_left {
+      width: 100%;
+      flex-direction: row;
+
+      .img1 {
+        width: 50%;
+        padding: 10px 20px;
+
+        img {
+          width: 100%;
+          height: 320px;
+          border-radius: 15px;
+        }
+      }
+
+      .img2 {
+        width: 50%;
+        margin: 50px 0 0 0;
+        padding: 10px 20px;
+
+        img {
+          width: 100%;
+          height: 320px;
+          border-radius: 15px;
+        }
+      }
+    }
+
+    .career_australia_right {
+      width: 100%;
+      margin: 50px 0 0 0;
+
+      h5 {
+        font-size: 25px;
+      }
+
+      p {
+        font-size: 17px;
+      }
+    }
+  }
+
+  .college_australia {
+    width: 100%;
+    padding: 0 50px;
+    margin: 50px 0;
+
+    .college_australia_heading {
+      h2 {
+        font-size: 26px;
+      }
+    }
+
+    .college_list_australia {
+      width: 100%;
+
+      .college {
+        width: 100%;
+        height: 100px;
+        margin: 5px 0px;
+        border-radius: 10px;
+        justify-content: flex-start;
+        padding: 0 10px;
+
+        p {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+
+  .course_australia {
+    padding: 0 20px;
+    margin: 50px 0 30px 0;
+    flex-direction: column;
+
+    .course_australia_left {
+      width: 100%;
+      margin: 50px 0 0 0;
+
+      img {
+        width: 90%;
+        margin: 20px 5% 0 5%;
+        height: 350px;
+        border-radius: 10px;
+      }
+    }
+
+    .course_australia_right {
+      width: 100%;
+      margin: 50px 0 0 0;
+
+      h4 {
+        margin-left: 50px;
+        font-size: 26px;
+      }
+
+      .course_box {
+        width: 90%;
+        height: 50px;
+        margin: 20px 5%;
+
+        p {
+          font-size: 18px;
+          padding: 8px 10px;
+          letter-spacing: 1px;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 612px) {
+  .australia_main {
+    border-radius: 0 0 90% 90%;
+
+    .australia_main_heading {
+      padding: 30px 0 20px 0;
+
+      h6 {
+        font-size: 16px;
+      }
+      h1 {
+        font-size: 28px;
+      }
+    }
+
+    .australia_main_img {
+      flex-direction: column;
+
+      img {
+        width: 80%;
+        height: 200px;
+        border-radius: 10px;
+        margin: 0 10px;
+
+        &:nth-child(2) {
+          display: none;
+        }
+      }
+    }
+  }
+
+  .australia_para {
+    width: 100%;
+    padding: 40px 20px;
+
+    p {
+      font-size: 16px;
+    }
+  }
+
+  .why_australia {
+    width: 100%;
+    padding: 0 20px;
+    margin: 30px 0;
+    flex-direction: column;
+
+    .why_australia_left {
+      width: 50%;
+      padding-right: 0;
+
+      h4 {
+        font-size: 22px;
+      }
+
+      p {
+        font-size: 16px;
+      }
+    }
+
+    .why_australia_right {
+      width: 100%;
+      padding-right: 0;
+
+      h4 {
+        font-size: 22px;
+      }
+
+      ul li {
+        font-size: 16px;
+      }
+    }
+  }
+
+  .education_cost_australia_heading {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: teal;
+    margin-top: 40px;
+
+    h2 {
+      font-size: 22px;
+    }
+  }
+
+  .education_cost_australia {
+    padding: 0 20px;
+    margin: 0 0 40px 0;
+    overflow-x: auto;
+
+    table {
+      min-width: 700px;
+
+      th {
+        padding: 5px 0 5px 10px;
+        font-size: 16px;
+      }
+
+      tr {
+        padding: 2px 0;
+      }
+
+      td {
+        font-size: 16px;
+        padding: 5px 0;
+        padding-left: 10px;
+      }
+    }
+  }
+
+  .career_australia {
+    padding: 0 10px;
+    margin: 50px 0 40px 0;
+    flex-direction: column;
+
+    .career_australia_left {
+      width: 100%;
+      flex-direction: row;
+
+      .img1 {
+        width: 50%;
+        padding: 10px 10px;
+
+        img {
+          width: 100%;
+          height: 280px;
+          border-radius: 15px;
+        }
+      }
+
+      .img2 {
+        width: 50%;
+        margin: 50px 0 0 0;
+        padding: 10px 10px;
+
+        img {
+          width: 100%;
+          height: 280px;
+          border-radius: 15px;
+        }
+      }
+    }
+
+    .career_australia_right {
+      width: 100%;
+      margin: 50px 0 0 0;
+      padding: 0 10px;
+
+      h5 {
+        font-size: 24px;
+      }
+
+      p {
+        font-size: 16px;
+      }
+    }
+  }
+
+  .college_australia {
+    width: 100%;
+    padding: 0 20px;
+    margin: 50px 0;
+
+    .college_australia_heading {
+      h2 {
+        font-size: 26px;
+      }
+    }
+
+    .college_list_australia {
+      width: 100%;
+
+      .college {
+        width: 100%;
+        height: 100px;
+        margin: 5px 0px;
+        border-radius: 10px;
+        justify-content: flex-start;
+        padding: 0 10px;
+
+        p {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+
+  .course_australia {
+    padding: 0 20px;
+    margin: 50px 0 30px 0;
+    flex-direction: column;
+
+    .course_australia_left {
+      width: 50%;
+      margin: 50px 0 0 0;
+
+      img {
+        width: 96%;
+        margin: 20px 2% 0 2%;
+        height: 300px;
+        border-radius: 10px;
+      }
+    }
+
+    .course_australia_right {
+      width: 100%;
+      margin: 50px 0 0 0;
+
+      h4 {
+        margin-left: 10px;
+        font-size: 26px;
+      }
+
+      .course_box {
+        width: 96%;
+        height: 60px;
+        margin: 20px 2%;
+
+        p {
+          font-size: 17px;
+          padding: 0 10px;
+          letter-spacing: 0px;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+@media (max-width: 451px) {
+  .australia_main {
+    border-radius: 0 0 90% 90%;
+
+    .australia_main_heading {
+      padding: 30px 0 20px 0;
+
+      h6 {
+        font-size: 14px;
+      }
+      h1 {
+        font-size: 26px;
+      }
+    }
+
+    .australia_main_img {
+      flex-direction: column;
+
+      img {
+        width: 80%;
+        height: 200px;
+        border-radius: 10px;
+        margin: 0 10px;
+
+        &:nth-child(2) {
+          display: none;
+        }
+      }
+    }
+  }
+
+  .australia_para {
+    width: 100%;
+    padding: 30px 10px;
+
+    p {
+      font-size: 14px;
+    }
+  }
+
+  .why_australia {
+    width: 100%;
+    padding: 0 10px;
+    margin: 30px 0;
+    flex-direction: column;
+
+    .why_australia_left {
+      width: 100%;
+      padding-right: 0;
+
+      h4 {
+        font-size: 20px;
+      }
+
+      p {
+        font-size: 14px;
+      }
+    }
+
+    .why_australia_right {
+      width: 100%;
+      padding-right: 0;
+
+      h4 {
+        font-size: 20px;
+      }
+
+      ul li {
+        font-size: 14px;
+      }
+    }
+  }
+
+  .education_cost_australia_heading {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: teal;
+    margin-top: 30px;
+
+    h2 {
+      font-size: 20px;
+    }
+  }
+
+  .education_cost_australia {
+    padding: 0 20px;
+    margin: 0 0 40px 0;
+    overflow-x: auto;
+
+    table {
+      min-width: 700px;
+
+      th {
+        padding: 5px 0 5px 10px;
+        font-size: 16px;
+      }
+
+      tr {
+        padding: 2px 0;
+      }
+
+      td {
+        font-size: 16px;
+        padding: 5px 0;
+        padding-left: 10px;
+      }
+    }
+  }
+
+  .career_australia {
+    padding: 0 10px;
+    margin: 20px 0 20px 0;
+    flex-direction: column;
+
+    .career_australia_left {
+      width: 100%;
+      flex-direction: row;
+
+      .img1 {
+        width: 50%;
+        padding: 10px 5px;
+
+        img {
+          width: 100%;
+          height: 230px;
+          border-radius: 10px;
+        }
+      }
+
+      .img2 {
+        width: 50%;
+        margin: 50px 0 0 0;
+        padding: 10px 5px;
+
+        img {
+          width: 100%;
+          height: 230px;
+          border-radius: 10px;
+        }
+      }
+    }
+
+    .career_australia_right {
+      width: 100%;
+      margin: 30px 0 0 0;
+      padding: 0 10px;
+
+      h5 {
+        font-size: 22px;
+      }
+
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+
+  .college_australia {
+    width: 100%;
+    padding: 0 20px;
+    margin: 50px 0;
+
+    .college_australia_heading {
+      h2 {
+        font-size: 26px;
+      }
+    }
+
+    .college_list_australia {
+      width: 100%;
+
+      .college {
+        width: 100%;
+        height: 100px;
+        margin: 5px 0px;
+        border-radius: 5px;
+        justify-content: flex-start;
+        padding: 0 10px;
+
+        p {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+
+  .course_australia {
+    padding: 0 10px;
+    margin: 40px 0 30px 0;
+    flex-direction: column;
+
+    .course_australia_left {
+      width: 100%;
+      margin: 20px 0 0 0;
+
+      img {
+        width: 96%;
+        margin: 20px 2% 0 2%;
+        height: 250px;
+        border-radius: 10px;
+      }
+    }
+
+    .course_australia_right {
+      width: 100%;
+      margin: 40px 0 0 0;
+
+      h4 {
+        margin-left: 10px;
+        font-size: 24px;
+      }
+
+      .course_box {
+        width: 96%;
+        height: 50px;
+        margin: 20px 2%;
+
+        p {
+          font-size: 14px;
+          padding: 0 10px;
+          letter-spacing: 0px;
+        }
+      }
+    }
+  }
+}

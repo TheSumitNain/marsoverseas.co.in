@@ -1,0 +1,673 @@
+.china {
+  .logo {
+    width: 100%;
+    height: 250px;
+    background-color: teal;
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 150px;
+
+    h1 {
+      color: white;
+      font-size: 40px;
+    }
+  }
+
+  .table_map {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+
+    table {
+      width: 50%;
+      margin: 50px 50px 0 0;
+
+      tr {
+        border-bottom: 1px solid teal;
+        border-top: 1px solid teal;
+      }
+
+      td {
+        color: teal;
+        padding: 10px 0;
+      }
+    }
+
+    div {
+      .photos {
+        display: flex;
+        flex-direction: row;
+
+        img {
+          width: 50%;
+          height: 200px;
+          padding: 10px;
+        }
+      }
+
+      .map {
+        width: 97%;
+        height: 300px;
+        margin: 0 1.5%;
+      }
+    }
+  }
+}
+
+.reason_china {
+  width: 100%;
+  padding: 0 100px;
+  margin: 50px 0;
+  display: flex;
+  flex-direction: row;
+
+  .reason_china_left {
+    width: 50%;
+
+    .reason_china_heading {
+      width: 98%;
+      // height: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin: 10px 1%;
+      background-color: teal;
+      color: white;
+    }
+
+    ul {
+      padding: 0 20px 0 50px;
+
+      li {
+        font-size: 16px;
+        color: gray;
+        padding: 5px 0;
+      }
+    }
+  }
+
+  .reason_china_right {
+    width: 50%;
+
+    .reason_china_heading {
+      width: 98%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin: 10px 1%;
+      background-color: teal;
+      color: white;
+    }
+
+    ul {
+      padding: 0 20px 0 50px;
+
+      li {
+        font-size: 16px;
+        color: gray;
+        padding: 5px 0;
+      }
+    }
+  }
+}
+
+.college_china {
+  width: 100%;
+  padding: 0 100px;
+
+  .college_china_heading {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: teal;
+
+    h2 {
+      color: white;
+    }
+  }
+
+ .china_table {
+  table {
+    width: 100%;
+    margin: 50px 0;
+
+    tr {
+      border-bottom: 1px solid teal;
+      border-top: 1px solid teal;
+    }
+
+    td {
+      color: teal;
+      padding: 10px 0;
+    }
+  }
+ }
+}
+
+
+
+
+
+
+
+@media (max-width: 992px) {
+
+  .china {
+    .logo {
+      height: 220px;
+      padding: 0 0 0 120px;
+  
+      h1 {
+        font-size: 35px;
+      }
+    }
+  
+    .table_map {
+      justify-content: space-between;
+      padding: 0 20px;
+  
+      table {
+        width: 100%;
+        margin: 30px 20px 0 0;
+        font-size: 17px;
+  
+        td {
+          padding: 8px 0;
+        }
+      }
+  
+      div {
+        width: 100%;
+        .photos {
+          flex-direction: row;
+  
+          img {
+            width: 50%;
+            height: 180px;
+            padding: 5px;
+          }
+        }
+  
+        .map {
+          width: 100%;
+          height: 260px;
+          margin: 0 1.5%;
+        }
+      }
+    }
+  }
+  
+  .reason_china {
+    padding: 0 20px;
+    margin: 40px 0;
+    flex-direction: row;
+  
+    .reason_china_left {
+      width: 50%;
+  
+      .reason_china_heading {
+        width: 98%;
+        flex-direction: column;
+        margin: 8px 1%;
+      }
+  
+      ul {
+        padding: 0 20px 0 40px;
+  
+        li {
+          font-size: 17px;
+          padding: 5px 0;
+        }
+      }
+    }
+  
+    .reason_china_right {
+      width: 50%;
+  
+      .reason_china_heading {
+        width: 98%;
+        flex-direction: column;
+        margin: 8px 1%;
+      }
+  
+      ul {
+        padding: 0 20px 0 20px;
+  
+        li {
+          font-size: 17px;
+          padding: 5px 0;
+        }
+      }
+    }
+  }
+  
+  .college_china {
+    width: 100%;
+    padding: 0 20px;
+  
+    .college_china_heading {
+      height: 50px;  
+      h2 {
+        font-size: 28px;
+      }
+    }
+  
+   .china_table {
+    table {
+      width: 100%;
+      margin: 40px 0;
+      font-size: 17px;
+  
+      td {
+        padding: 8px 0;
+      }
+    }
+   }
+  }
+  
+
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+  .china {
+    .logo {
+      height: 180px;
+      padding: 0 0 0 80px;
+  
+      h1 {
+        font-size: 28px;
+      }
+    }
+  
+    .table_map {
+      flex-direction: column;
+      padding: 0 20px;
+  
+      table {
+        width: 100%;
+        margin: 30px 20px 0 0;
+        font-size: 16px;
+  
+        td {
+          padding: 6px 0;
+        }
+      }
+  
+      div {
+        width: 100%;
+        margin-top: 20px;
+
+        .photos {
+          flex-direction: row;
+  
+          img {
+            width: 50%;
+            height: 180px;
+            padding: 5px;
+          }
+        }
+  
+        .map {
+          width: 100%;
+          height: 260px;
+          margin: 0 1.5%;
+        }
+      }
+    }
+  }
+  
+  .reason_china {
+    padding: 0 20px;
+    margin: 40px 0;
+    flex-direction: column;
+  
+    .reason_china_left {
+      width: 100%;
+  
+      .reason_china_heading {
+        width: 98%;
+        flex-direction: column;
+        margin: 8px 1%;
+        font-size: 28px;
+      }
+  
+      ul {
+        padding: 0 20px 0 40px;
+  
+        li {
+          font-size: 17px;
+          padding: 5px 0;
+        }
+      }
+    }
+  
+    .reason_china_right {
+      width: 100%;
+  
+      .reason_china_heading {
+        width: 98%;
+        flex-direction: column;
+        margin: 8px 1%;
+        font-size: 28px;
+      }
+  
+      ul {
+        padding: 0 20px 0 20px;
+  
+        li {
+          font-size: 17px;
+          padding: 5px 0;
+        }
+      }
+    }
+  }
+  
+  .college_china {
+    width: 100%;
+    padding: 0 20px;
+  
+    .college_china_heading {
+      height: 50px;  
+      h2 {
+        font-size: 28px;
+      }
+    }
+  
+   .china_table {
+    overflow-x: auto;
+
+    table {
+      min-width: 800px;
+      width: 100%;
+      margin: 35px 0;
+      font-size: 16px;
+  
+      td {
+        padding: 6px 0;
+      }
+    }
+   }
+  }
+  
+
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 612px) {
+
+  .china {
+    .logo {
+      height: 150px;
+      padding: 0 0 0 50px;
+  
+      h1 {
+        font-size: 26px;
+      }
+    }
+  
+    .table_map {
+      flex-direction: column;
+      padding: 0 10px;
+  
+      table {
+        width: 100%;
+        margin: 30px 0 0 0;
+        font-size: 15px;
+  
+        td {
+          padding: 5px 0;
+        }
+      }
+  
+      div {
+        width: 100%;
+        margin-top: 20px;
+
+        .photos {
+          flex-direction: row;
+  
+          img {
+            width: 50%;
+            height: 160px;
+            padding: 5px;
+          }
+        }
+  
+        .map {
+          width: 100%;
+          height: 220px;
+          margin: 0 1.5%;
+        }
+      }
+    }
+  }
+  
+  .reason_china {
+    padding: 0 10px;
+    margin: 30px 0;
+    flex-direction: column;
+  
+    .reason_china_left {
+      width: 100%;
+  
+      .reason_china_heading {
+        width: 98%;
+        flex-direction: column;
+        margin: 5px 1%;
+        font-size: 26px;
+      }
+  
+      ul {
+        padding: 0 10px 0 20px;
+  
+        li {
+          font-size: 15px;
+          padding: 5px 0;
+        }
+      }
+    }
+  
+    .reason_china_right {
+      width: 100%;
+  
+      .reason_china_heading {
+        width: 98%;
+        flex-direction: column;
+        margin: 5px 1%;
+        font-size: 26px;
+      }
+  
+      ul {
+        padding: 0 10px 0 20px;
+  
+        li {
+          font-size: 15px;
+          padding: 5px 0;
+        }
+      }
+    }
+  }
+  
+  .college_china {
+    width: 100%;
+    padding: 0 20px;
+  
+    .college_china_heading {
+      height: 50px;  
+      h2 {
+        font-size: 26px;
+      }
+    }
+  
+   .china_table {
+    overflow-x: auto;
+
+    table {
+      min-width: 800px;
+      width: 100%;
+      margin: 30px 0;
+      font-size: 15px;
+  
+      td {
+        padding: 5px 0;
+      }
+    }
+   }
+  }
+  
+
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 451px) {
+
+  .china {
+    .logo {
+      height: 140px;
+      padding: 0 0 0 40px;
+  
+      h1 {
+        font-size: 24px;
+      }
+    }
+  
+    .table_map {
+      flex-direction: column;
+      padding: 0 10px;
+  
+      table {
+        width: 100%;
+        margin: 30px 0 0 0;
+        font-size: 15px;
+  
+        td {
+          padding: 5px 0;
+        }
+      }
+  
+      div {
+        width: 100%;
+        margin-top: 20px;
+
+        .photos {
+          flex-direction: row;
+  
+          img {
+            width: 50%;
+            height: 160px;
+            padding: 5px;
+          }
+        }
+  
+        .map {
+          width: 100%;
+          height: 220px;
+          margin: 0 1.5%;
+        }
+      }
+    }
+  }
+  
+  .reason_china {
+    padding: 0 10px;
+    margin: 30px 0;
+    flex-direction: column;
+  
+    .reason_china_left {
+      width: 100%;
+  
+      .reason_china_heading {
+        width: 98%;
+        flex-direction: column;
+        margin: 5px 1%;
+        font-size: 24px;
+      }
+  
+      ul {
+        padding: 0 10px 0 20px;
+  
+        li {
+          font-size: 15px;
+          padding: 5px 0;
+        }
+      }
+    }
+  
+    .reason_china_right {
+      width: 100%;
+  
+      .reason_china_heading {
+        width: 98%;
+        flex-direction: column;
+        margin: 5px 1%;
+        font-size: 24px;
+      }
+  
+      ul {
+        padding: 0 10px 0 20px;
+  
+        li {
+          font-size: 15px;
+          padding: 5px 0;
+        }
+      }
+    }
+  }
+  
+  .college_china {
+    width: 100%;
+    padding: 0 20px;
+  
+    .college_china_heading {
+      height: 50px;  
+      h2 {
+        font-size: 24px;
+      }
+    }
+  
+   .china_table {
+    overflow-x: auto;
+
+    table {
+      min-width: 800px;
+      width: 100%;
+      margin: 30px 0;
+      font-size: 15px;
+  
+      td {
+        padding: 5px 0;
+      }
+    }
+   }
+  }
+  
+
+}

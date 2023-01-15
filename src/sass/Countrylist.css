@@ -1,0 +1,45 @@
+.country {
+  width: 100%;
+  background-color: #e9e7f1;
+}
+
+.country .country_heading {
+  width: 100%;
+  padding-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.country .country_heading h2 {
+  color: teal;
+  font-weight: 400;
+}
+
+.country .country_list {
+  height: 200px;
+  padding: 0 50px;
+}
+
+.country .country_list ul li {
+  float: left;
+  width: 25%;
+  font-size: 20px;
+  font-weight: 400;
+  list-style: none;
+  margin: 2px 0;
+}
+
+.country .country_list ul li .mbbs_country {
+  text-decoration: none;
+  color: gray;
+  padding: 2px;
+  border-bottom: 1px solid gray;
+}
+/*# sourceMappingURL=Countrylist.css.map */

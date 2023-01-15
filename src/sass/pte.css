@@ -1,0 +1,268 @@
+.pte {
+  width: 100%;
+  height: 300px;
+  background: url("../images/pte2.jpg");
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pte_main {
+  margin: 10px 200px 50px 100px;
+}
+
+.pte_main h4 {
+  color: teal;
+  margin-top: 50px;
+}
+
+.pte_main h5 {
+  color: teal;
+  margin-top: 20px;
+}
+
+.pte_main p {
+  color: grey;
+  font-size: 18px;
+}
+
+.pte_main ul li {
+  color: teal;
+  font-size: 18px;
+}
+
+.pte_main span {
+  color: teal;
+}
+
+.pte_main table {
+  border: 1px solid teal;
+  margin: 50px 0;
+}
+
+.pte_main table tr {
+  border: 1px solid teal;
+}
+
+.pte_main table th {
+  color: teal;
+  border: 1px solid teal;
+  padding: 5px 100px 5px 20px;
+  font-size: 18px;
+}
+
+.pte_main table td {
+  border: 1px solid teal;
+  padding: 5px 100px 5px 20px;
+  color: gray;
+  font-size: 18px;
+}
+
+.pte_main table td span {
+  font-weight: 500;
+}
+
+.pte_main p span {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+@media (max-width: 992px) {
+  .pte {
+    height: 350px;
+  }
+  .pte_main {
+    margin: 10px 20px 20px 20px;
+  }
+  .pte_main h4 {
+    margin-top: 20px;
+    font-size: 25px;
+  }
+  .pte_main h5 {
+    margin-top: 15px;
+    font-size: 20px;
+  }
+  .pte_main p {
+    font-size: 16px;
+  }
+  .pte_main ul li {
+    font-size: 16px;
+  }
+  .pte_main span {
+    color: teal;
+    font-size: 16px;
+  }
+  .pte_main table {
+    border: 1px solid teal;
+    margin: 20px 0;
+  }
+  .pte_main table tr {
+    border: 1px solid teal;
+  }
+  .pte_main table th {
+    border: 1px solid teal;
+    padding: 5px 50px 5px 10px;
+    font-size: 16px;
+  }
+  .pte_main table td {
+    border: 1px solid teal;
+    padding: 5px 50px 5px 10px;
+    font-size: 16px;
+  }
+  .pte_main table td span {
+    font-weight: 500;
+  }
+  .pte_main p span {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .pte {
+    height: 300px;
+  }
+  .pte_main {
+    margin: 10px 20px 20px 20px;
+  }
+  .pte_main h4 {
+    margin-top: 20px;
+    font-size: 25px;
+  }
+  .pte_main h5 {
+    margin-top: 15px;
+    font-size: 20px;
+  }
+  .pte_main p {
+    font-size: 16px;
+  }
+  .pte_main ul li {
+    font-size: 16px;
+  }
+  .pte_main span {
+    color: teal;
+    font-size: 18px;
+  }
+  .pte_main table {
+    border: 1px solid teal;
+    margin: 20px 0;
+  }
+  .pte_main table tr {
+    border: 1px solid teal;
+  }
+  .pte_main table th {
+    border: 1px solid teal;
+    padding: 5px 50px 5px 10px;
+    font-size: 16px;
+  }
+  .pte_main table td {
+    border: 1px solid teal;
+    padding: 5px 50px 5px 10px;
+    font-size: 16px;
+  }
+  .pte_main table td span {
+    font-weight: 500;
+  }
+  .pte_main p span {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 612px) {
+  .pte {
+    height: 250px;
+  }
+  .pte_main {
+    margin: 10px 10px 20px 10px;
+  }
+  .pte_main h4 {
+    margin-top: 20px;
+    font-size: 22px;
+  }
+  .pte_main h5 {
+    margin-top: 15px;
+    font-size: 18px;
+  }
+  .pte_main p {
+    font-size: 14px;
+  }
+  .pte_main ul li {
+    font-size: 14px;
+  }
+  .pte_main span {
+    font-size: 18px;
+  }
+  .pte_main table {
+    border: 1px solid teal;
+    margin: 20px 0;
+  }
+  .pte_main table tr {
+    border: 1px solid teal;
+  }
+  .pte_main table th {
+    border: 1px solid teal;
+    padding: 5px 10px 5px 10px;
+    font-size: 16px;
+  }
+  .pte_main table td {
+    border: 1px solid teal;
+    padding: 5px 10px 5px 10px;
+    font-size: 16px;
+  }
+  .pte_main table td span {
+    font-weight: 500;
+  }
+  .pte_main p span {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 400px) {
+  .pte {
+    height: 200px;
+  }
+  .pte_main {
+    margin: 10px 10px 10px 10px;
+  }
+  .pte_main h4 {
+    margin-top: 20px;
+    font-size: 22px;
+  }
+  .pte_main h5 {
+    margin-top: 15px;
+    font-size: 18px;
+  }
+  .pte_main p {
+    font-size: 14px;
+  }
+  .pte_main ul li {
+    font-size: 14px;
+  }
+  .pte_main span {
+    font-size: 18px;
+  }
+  .pte_main table {
+    border: 1px solid teal;
+    margin: 20px 0;
+  }
+  .pte_main table tr {
+    border: 1px solid teal;
+  }
+  .pte_main table th {
+    border: 1px solid teal;
+    padding: 5px 10px 5px 10px;
+    font-size: 14px;
+  }
+  .pte_main table td {
+    border: 1px solid teal;
+    padding: 2px 10px 2px 10px;
+    font-size: 14px;
+  }
+  .pte_main table td span {
+    font-weight: 500;
+  }
+  .pte_main p span {
+    font-size: 15px;
+  }
+}
+/*# sourceMappingURL=pte.css.map */

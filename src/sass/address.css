@@ -1,0 +1,232 @@
+.map {
+  margin: 50px 100px;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.address {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: #f3f3f3;
+  padding: 30px 100px;
+}
+
+.address .contact_us h3 {
+  color: gray;
+  font-size: 20px;
+  padding: 0;
+  margin: 5px 0 5px 25px;
+}
+
+.address .contact_us a {
+  text-decoration: none;
+}
+
+.address .contact_us p {
+  font-size: 18px;
+  font-weight: 500;
+  padding: 0;
+  margin: 0;
+  color: teal;
+}
+
+.address .contact_us p span {
+  margin-right: 10px;
+}
+
+.address .office h3 {
+  color: gray;
+  font-size: 20px;
+  padding: 0;
+  margin: 5px 0 5px 25px;
+}
+
+.address .office p {
+  font-size: 18px;
+  font-weight: 500;
+  padding: 0;
+  margin: 0;
+  color: teal;
+}
+
+.address .office p span {
+  margin-right: 10px;
+}
+
+.address .follow_us h3 {
+  color: teal;
+  font-size: 20px;
+}
+
+.socialbtn {
+  margin: 20px 0;
+}
+
+.insta {
+  margin: 0 5px;
+  font-size: 40px;
+  border-radius: 30%;
+  padding: 0px;
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+  color: white;
+}
+
+.fb {
+  margin: 0 5px;
+  font-size: 40px;
+  border-radius: 30%;
+  padding: 2px;
+  background-color: #3b5998;
+  color: white;
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.twitter {
+  margin: 0 5px;
+  font-size: 40px;
+  border-radius: 30%;
+  padding: 2px;
+  background-color: #00acee;
+  color: white;
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.copyright {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: teal;
+}
+
+.copyright p {
+  padding-top: 5px;
+  color: white;
+}
+
+@media (max-width: 400px) {
+  .address {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-color: #f3f3f3;
+    padding: 30px 10px 10px 10px;
+  }
+  .address .contact_us {
+    margin-bottom: 20px;
+  }
+  .address .contact_us h3 {
+    color: teal;
+    font-size: 18px;
+    padding: 0;
+    margin: 5px 0 5px 25px;
+  }
+  .address .contact_us p {
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+  }
+  .address .contact_us p span {
+    margin-right: 10px;
+  }
+  .address .office {
+    margin-bottom: 20px;
+  }
+  .address .office h3 {
+    color: teal;
+    font-size: 18px;
+    padding: 0;
+    margin: 5px 0 5px 25px;
+  }
+  .address .office p {
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+  }
+  .address .office p span {
+    margin-right: 10px;
+  }
+  .address .follow_us h3 {
+    color: teal;
+    font-size: 18px;
+    padding: 0;
+    margin: 5px 0 5px 25px;
+  }
+  .socialbtn {
+    margin: 20px 10px;
+  }
+  .insta {
+    margin: 0 12px;
+    font-size: 40px;
+    border-radius: 30%;
+    padding: 0px;
+    -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+    color: white;
+  }
+  .fb {
+    margin: 0 12px;
+    font-size: 40px;
+    border-radius: 30%;
+    padding: 2px;
+    background-color: #3b5998;
+    color: white;
+    -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  }
+  .twitter {
+    margin: 0 12px;
+    font-size: 40px;
+    border-radius: 30%;
+    padding: 2px;
+    background-color: #00acee;
+    color: white;
+    -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  }
+  .copyright {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #e6e5e5;
+  }
+  .copyright p {
+    padding-top: 5px;
+    font-size: 12px;
+  }
+}
+/*# sourceMappingURL=address.css.map */

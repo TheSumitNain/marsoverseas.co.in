@@ -1,0 +1,75 @@
+.google_map {
+  width: 100%;
+  height: 450px;
+}
+
+.location_main {
+  width: 100%;
+  padding-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: teal;
+}
+
+.mylocation .phone {
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.mylocation .phone span {
+  color: #c7c7c7;
+}
+
+.mylocation .email {
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.mylocation .address {
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.mylocation p {
+  font-size: 17px;
+  color: #c7c7c7;
+  margin-left: 30px;
+}
+
+.mylocation .soical_group {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 50px;
+}
+
+.mylocation .social_btn {
+  background-color: #f5eeee;
+  border-radius: 50%;
+  padding: 9px;
+  margin: 0 9px;
+  color: #dc9146;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+@media (max-width: 400px) {
+  .google_map {
+    height: 200px;
+  }
+}
+/*# sourceMappingURL=location.css.map */
